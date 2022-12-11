@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(./img/back.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+
+}
+
+span {
+    color: aqua;
+}
+
+.t1 {
+    color: rgb(90, 223, 57);
+}
+
+header {
+    display: flex;
+    background-color: rgba(27, 17, 172, 0.842);
+    border: 100%;
+    width: 100%;
+    height: 69px;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    border-radius: 5px;
+    
+   
+
+}
+
+h2{
+    transition: padding 500ms;
+}
+h2:hover{
+    color: rgb(90, 180, 231);
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+
+nav ul li {
+    list-style: none;
+    display:inline-block;
+    padding: 10px 24px;
+
+
+
+}
+
+
+nav ul li a {
+    background-color: rgba(27, 17, 172, 0.842);
+    margin-top: 30px;
+    color: aqua;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    transition: padding 800ms;
+
+}
+
+nav ul li a:hover {
+    color: rgb(7, 75, 75);
+    transition: 2s;
+    padding: 2px;
+    
+}
+ 
+
+.about {
+    width: 100%;
+    padding: 100px 0px;
+
+    
+
+
+
+}
+
+.main {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    max-width:80%;
+   
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    color:rgb(182, 230, 215);
+    height:400px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    transition: padding 500ms;
+    
+}
+.main:hover{
+    padding: 50px;
+    font-size: 25px;
+}
+.main p{
+    text-align: center;
+    margin: auto;
+    font-weight: bold;
+}
+
+.skills {
+
+    width: 100%;
+    padding: 100px 0px;
+
+}
+
+h2 {
+    color: rgb(14, 172, 124);
+    font-size: 75px;
+    width: 1130;
+    margin: 30px auto;
+    text-align: center;
+    
+}
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    
+}
+
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    transition:padding 800ms;
+
+}
+.card:hover{
+    padding: 50px;
+    background-color: rgb(66, 10, 119);
+   
+}
+
+
+
+
+.img-card {
+    width: 60px;
+}
+
+h5 {
+
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.pra p {
+    color: aqua;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+
+.card a {
+    background-color: rgba(0, 255, 255, 0.555);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition:  200ms , padding 500ms ;
+    transition: .4s;
+}
+.card a:hover{
+    padding: 20px;
+    background-color: rgba(0, 255, 255, 0.555);
+}
+
+
+h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+footer {
+
+    position: relative;
+    width: 100%;
+    height: 400px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color: aqua;
+    margin-bottom: 20px;
+    font-weight: bold;
+   
+}
+footer p {
+    animation: changeColor 2s linear 0s normal forwards;
+    animation-iteration-count: infinite;
+}
+@keyframes changeColor{
+    10%{color: aqua;}
+    20%{color: aquamarine;}
+    30%{color: rgb(15, 141, 99);}
+    100%{color: blue;}
+}
+
+.end{
+    position: absolute;
+    color: aqua;
+    bottom: 40px;
+    font-size: 20px;
+
+}
