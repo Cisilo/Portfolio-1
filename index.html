@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./estilo.css">
     <link rel="shortcut icon" href="./img/eu.jpg" type="image">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Document</title>
 </head>
 
@@ -14,9 +15,17 @@
 
     <header>
         <h1><span>Por</span>tifolio</h1>
+        <nav  class="menu-desktop">
 
-        <nav id="itens">
-
+            <ul>
+                <li> <a href="mailto:rafael.devv@outlook.com" class="btn">E-mail</a></li>
+                <li><a href="https://www.linkedin.com/in/rafael-cisilo-97b486233/" target="_blank">Linkedin</a></li>
+                <li><a href="https://wa.me/11987974369" target="_blank">Whatsapp</a></li>
+                <li><a href="https://github.com/Rafadiv" target="_blank">GitHub</a></li>
+            </ul>
+        </nav>
+        <nav  class="menu-mobile">
+            <i  class="material-icons">menu</i>
             <ul>
                 <li> <a href="mailto:rafael.devv@outlook.com" class="btn">E-mail</a></li>
                 <li><a href="https://www.linkedin.com/in/rafael-cisilo-97b486233/" target="_blank">Linkedin</a></li>
@@ -177,6 +186,17 @@
 
     </footer>
 
+    <script>
+            var menuBar = document.querySelector('.menu-mobile i');
+            menuBar.addEventListener('click',(e)=>{
+                e.preventDefault();
+                let menuMobile = document.querySelector('.menu-mobile ul');
+                if(menuMobile.classList.contains('show-menu')){
+                    menuMobile.classList.remove('show-menu');
+                } else {menuMobile.classList.add('show-menu');}
+                
+            });
+    </script>
 </body>
 
 </html>

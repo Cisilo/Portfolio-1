@@ -32,11 +32,37 @@ header {
     justify-content: space-around;
     font-weight: bold;
     border-radius: 5px;
-    
-   
+}
+.menu-mobile{
+    display: none;
+    text-align: right; 
+    width: 50%;
+}
+.menu-mobile ul {
+    background-color: rgba(27, 17, 172, 0.842);
+    opacity:0 ;
+    transition: 1s;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 80px;
+    text-align: center;
+}
+.show-menu{
+    opacity: 1 !important;
+}
+.menu-mobile i {
+    cursor: pointer;
+    color: aliceblue;
+    font-size: 19px;
 
 }
-
+@media screen and (max-width:770px){
+    .menu-mobile{display: block;}
+    .menu-mobileul{display: none;}
+    .menu-desktop{display: none;}
+}
+    
 h2{
     transition: padding 500ms;
 }
