@@ -39,7 +39,7 @@ header {
     width: 50%;
 }
 .menu-mobile ul {
-    background-color: rgba(27, 17, 172, 0.842);
+    background-color: rgba(32, 16, 253, 0.233);
     opacity:0 ;
     transition: 1s;
     width: 100%;
