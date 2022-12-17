@@ -95,7 +95,7 @@ section .sobre {
     color:black;
     font-size: 14px;
     font-weight: bold;
-   max-width: 500px;
+    max-width: 500px;
     min-width: 200px;
 }
 .text-sobre button{
