@@ -121,7 +121,7 @@ nav ul li a:hover {
     display: flex;
     align-items: center;
     color:rgb(182, 230, 215);
-    height:400px;
+    height:600px;
     background-color: blueviolet;
     border-radius: 20px;
     flex-wrap: wrap;
