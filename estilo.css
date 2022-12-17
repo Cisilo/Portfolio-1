@@ -122,7 +122,7 @@ nav ul li a:hover {
     align-items: center;
     color:rgb(182, 230, 215);
     height:600px;
-    background-color: blueviolet;
+    background-color: rgb(39, 22, 189);
     border-radius: 20px;
     flex-wrap: wrap;
     
@@ -159,7 +159,7 @@ h2 {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    min-height: 400px;
+    min-height: 600px;
     
 }
 
@@ -173,12 +173,12 @@ h2 {
     position: relative;
     overflow: hidden;
     text-align: center;
-    transition:padding 800ms;
+    transition:padding 700ms;
 
 }
 .card:hover{
-    padding: 50px;
-    background-color: rgb(66, 10, 119);
+    padding: 40px;
+    background-color: rgb(39, 22, 189);
    
 }
 
