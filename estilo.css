@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     text-decoration: none;
 }
 
@@ -9,7 +9,7 @@ body {
     background-image: url(./img/back.webp);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:center;
+    background-position: center;
     background-attachment: fixed;
 
 }
@@ -26,21 +26,23 @@ header {
     display: flex;
     background-color: rgba(27, 17, 172, 0.842);
     border: 100%;
-    width: 100%;   
+    width: 100%;
     height: 69px;
     align-items: center;
     justify-content: space-around;
     font-weight: bold;
     border-radius: 5px;
 }
-.menu-mobile{
+
+.menu-mobile {
     display: none;
-    text-align: right; 
+    text-align: right;
     width: 50%;
 }
+
 .menu-mobile ul {
     background-color: rgba(32, 16, 253, 0.233);
-    opacity:0 ;
+    opacity: 0;
     transition: 1s;
     width: 100%;
     position: absolute;
@@ -48,25 +50,45 @@ header {
     top: 80px;
     text-align: center;
 }
-.show-menu{
+
+.show-menu {
     opacity: 1 !important;
 }
+
 .menu-mobile i {
     cursor: pointer;
     color: aliceblue;
     font-size: 19px;
 
 }
-@media screen and (max-width:770px){
-    .menu-mobile{display: block;}
-    .menu-mobileul{display: none;}
-    .menu-desktop{display: none;}
+
+@media screen and (max-width:770px) {
+    .menu-mobile {
+        display: block;
+    }
+
+    .menu-mobileul {
+        display: none;
+    }
+
+    .menu-desktop {
+        display: none;
+    }
 }
-    
-h2{
+
+h2 {
     transition: padding 500ms;
+
+    color: rgb(14, 172, 124);
+    font-size: 75px;
+    width: 1130;
+    margin: 30px auto;
+    text-align: center;
+
+
 }
-h2:hover{
+
+h2:hover {
     color: rgb(90, 180, 231);
     padding: 20px;
     cursor: pointer;
@@ -76,10 +98,8 @@ h2:hover{
 
 nav ul li {
     list-style: none;
-    display:inline-block;
+    display: inline-block;
     padding: 10px 24px;
-
-
 
 }
 
@@ -99,40 +119,38 @@ nav ul li a:hover {
     color: rgb(7, 75, 75);
     transition: 2s;
     padding: 2px;
-    
+
 }
- 
+
 
 .about {
     width: 100%;
     padding: 100px 0px;
 
-    
-
-
-
 }
 
 .main {
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
-    max-width:80%;
-   
+    max-width: 80%;
+
     margin: 0 auto;
     display: flex;
     align-items: center;
-    color:rgb(182, 230, 215);
-    height:600px;
+    color: rgb(182, 230, 215);
+    height: 600px;
     background-color: rgb(31, 13, 197);
     border-radius: 20px;
     flex-wrap: wrap;
-    
-    
+
+
 }
-.main:hover{
+
+.main:hover {
     padding: 50px;
     font-size: 25px;
 }
-.main p{
+
+.main p {
     text-align: center;
     margin: auto;
     font-weight: bold;
@@ -145,14 +163,7 @@ nav ul li a:hover {
 
 }
 
-h2 {
-    color: rgb(14, 172, 124);
-    font-size: 75px;
-    width: 1130;
-    margin: 30px auto;
-    text-align: center;
-    
-}
+
 
 .box {
     display: flex;
@@ -160,25 +171,33 @@ h2 {
     justify-content: center;
     align-items: center;
     min-height: 600px;
-    
+
 }
 
 .card {
     height: 365px;
     width: 335px;
     padding: 20px 35px;
+    font-size: 30px;
     background: #191919;
     border-radius: 20px;
     margin: 15px;
     position: relative;
     overflow: hidden;
     text-align: center;
-    transition:padding 700ms;
-
+    transition: padding 700ms;
+    display: inline-block;
 }
-.card:hover{
+
+.card:hover {
     padding: 40px;
     background-color: rgb(49, 31, 214);
+
+}
+
+h5{
+    color:rgb(9, 255, 0);
+    padding: 20px;
    
 }
 
@@ -189,11 +208,6 @@ h2 {
     width: 60px;
 }
 
-h5 {
-
-    font-size: 23px;
-    margin-bottom: 15px;
-}
 
 .pra p {
     color: aqua;
@@ -204,34 +218,37 @@ h5 {
 
 .card a {
     background-color: rgba(0, 255, 255, 0.555);
-    color: white;
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
     padding: 9px 22px;
     border-radius: 30px;
-    transition:  200ms , padding 500ms ;
+    transition: 200ms, padding 500ms;
     transition: .4s;
+    color:rgb(9, 255, 0);
+ 
+    
 }
-.card a:hover{
+
+.card a:hover {
     padding: 20px;
     background-color: rgba(0, 255, 255, 0.555);
 }
 
 
-h5 {
-    color: white;
-    font-size: 23px;
-    margin-bottom: 15px;
+
+
+img {
+    width: 70px;
+    display: inline-block;
 }
-img{ width: 70px;}
 
 footer {
 
     position: relative;
     width: 100%;
     height: 400px;
-   
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -240,25 +257,38 @@ footer {
 
 }
 
-footer p:nth-child(1){
+footer p:nth-child(1) {
     font-size: 30px;
     color: aqua;
     margin-bottom: 20px;
     font-weight: bold;
-   
+
 }
+
 footer p {
     animation: changeColor 2s linear 0s normal forwards;
     animation-iteration-count: infinite;
 }
-@keyframes changeColor{
-    10%{color: aqua;}
-    20%{color: aquamarine;}
-    30%{color: rgb(15, 141, 99);}
-    100%{color: blue;}
+
+@keyframes changeColor {
+    10% {
+        color: aqua;
+    }
+
+    20% {
+        color: aquamarine;
+    }
+
+    30% {
+        color: rgb(15, 141, 99);
+    }
+
+    100% {
+        color: blue;
+    }
 }
 
-.end{
+.end {
     position: absolute;
     color: aqua;
     bottom: 40px;
