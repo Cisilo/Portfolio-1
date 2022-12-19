@@ -14,6 +14,7 @@ body {
 
 }
 
+
 span {
     color: aqua;
 }
@@ -179,7 +180,7 @@ nav ul li a:hover {
     width: 335px;
     padding: 20px 35px;
     font-size: 30px;
-    background: #191919;
+    background: #19191904;
     border-radius: 20px;
     margin: 15px;
     position: relative;
