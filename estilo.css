@@ -260,7 +260,7 @@ footer {
 
 footer p:nth-child(1) {
     font-size: 30px;
-    color: aqua;
+    
     margin-bottom: 20px;
     font-weight: bold;
 
@@ -273,25 +273,25 @@ footer p {
 
 @keyframes changeColor {
     10% {
-        color: aqua;
+        color: rgb(26, 183, 245);
     }
 
     20% {
-        color: aquamarine;
+        color: rgba(70, 208, 233, 0.774);
     }
 
     30% {
-        color: rgb(15, 141, 99);
+        color: rgb(53, 15, 192);
     }
 
     100% {
-        color: blue;
+        color: rgb(83, 73, 221);
     }
 }
 
 .end {
     position: absolute;
-    color: aqua;
+    
     bottom: 40px;
     font-size: 20px;
 
