@@ -6,9 +6,10 @@
 }
 
 body {
+   height: 1000vh;
     background-image: url(./img/pexels-mohammed-abubakr-13058155.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
+   background-size:cover;
     background-position: center;
     background-attachment: fixed;
 
