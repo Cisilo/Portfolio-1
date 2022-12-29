@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url(./img/back.webp);
+    background-image: url(./img/pexels-mohammed-abubakr-13058155.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -20,12 +20,12 @@ span {
 }
 
 .t1 {
-    color: rgb(90, 223, 57);
+    color: rgb(164, 144, 216);
 }
 
 header {
     display: flex;
-    background-color: rgba(27, 17, 172, 0.842);
+    background-color: rgba(21, 17, 78, 0.842);
     border: 100%;
     width: 100%;
     height: 69px;
@@ -33,6 +33,7 @@ header {
     justify-content: space-around;
     font-weight: bold;
     border-radius: 5px;
+   
 }
 
 .menu-mobile {
@@ -80,7 +81,7 @@ header {
 h2 {
     transition: padding 500ms;
 
-    color: rgb(14, 172, 124);
+    color: rgb(14, 77, 172);
     font-size: 75px;
     width: 1130;
     margin: 30px auto;
@@ -90,7 +91,7 @@ h2 {
 }
 
 h2:hover {
-    color: rgb(90, 180, 231);
+    color: rgb(8, 13, 61);
     padding: 20px;
     cursor: pointer;
 }
@@ -106,9 +107,9 @@ nav ul li {
 
 
 nav ul li a {
-    background-color: rgba(27, 17, 172, 0.842);
+    
     margin-top: 30px;
-    color: aqua;
+    color: rgb(101, 173, 221);
     text-decoration: none;
     font-weight: bold;
     text-align: center;
@@ -127,19 +128,20 @@ nav ul li a:hover {
 .about {
     width: 100%;
     padding: 100px 0px;
+    
+    
 
 }
 
 .main {
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
     max-width: 80%;
-
     margin: 0 auto;
     display: flex;
     align-items: center;
     color: rgb(182, 230, 215);
     height: 600px;
-    background-color: rgb(31, 13, 197);
+    background: rgba(50, 31, 214, 0.3 );
     border-radius: 20px;
     flex-wrap: wrap;
 
@@ -149,6 +151,7 @@ nav ul li a:hover {
 .main:hover {
     padding: 50px;
     font-size: 25px;
+    background: rgba(50, 31, 214, 0.6 );
 }
 
 .main p {
@@ -180,7 +183,7 @@ nav ul li a:hover {
     width: 335px;
     padding: 20px 35px;
     font-size: 30px;
-    background: #19191904;
+    background: rgba(50, 31, 214, 0.3 );
     border-radius: 20px;
     margin: 15px;
     position: relative;
@@ -197,7 +200,7 @@ nav ul li a:hover {
 }
 
 h5{
-    color:rgb(9, 255, 0);
+    color: whitesmoke;
     padding: 20px;
    
 }
@@ -211,14 +214,15 @@ h5{
 
 
 .pra p {
-    color: aqua;
+    color: whitesmoke;
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
+    
 }
 
 .card a {
-    background-color: rgba(0, 255, 255, 0.555);
+    background-color: rgba(52, 125, 235, 0.555);
     text-decoration: none;
     border: 2px solid transparent;
     font-weight: bold;
@@ -226,7 +230,7 @@ h5{
     border-radius: 30px;
     transition: 200ms, padding 500ms;
     transition: .4s;
-    color:rgb(9, 255, 0);
+    color:rgb(89, 20, 168);
  
     
 }
