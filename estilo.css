@@ -4,16 +4,14 @@
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     text-decoration: none;
 }
-
-body {
-   height: 1000vh;
-    background-image: url(./img/pexels-mohammed-abubakr-13058155.jpg);
+.foto{
+    background-image: url(./img/background.jpg);
     background-repeat: no-repeat;
-   background-size:cover;
+    background-size:cover;
     background-position: center;
     background-attachment: fixed;
-
 }
+
 
 
 span {
@@ -254,11 +252,11 @@ footer {
     position: relative;
     width: 100%;
     height: 400px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  
 
 
 }
@@ -292,6 +290,9 @@ footer p {
     100% {
         color: rgb(83, 73, 221);
     }
+}
+footer{
+    
 }
 
 .end {
