@@ -53,13 +53,15 @@ body{
     border-radius: 10px;
     margin-top: 15px;
    
-    margin-left: 25%;
+    margin-left: 40%;
     color: brown;
 }
 #refresh:active{
     box-shadow: inset -4px 4px 0  rgb(27, 12, 4);
     font-size: 0.9rem;
+   
 }
+
 .score{
     padding: 20px;
     font-size: 20px;
@@ -68,6 +70,9 @@ body{
     border-radius: 10px;
     color: brown;
 
+}
+.score:hover{
+    background-color: rgb(35, 160, 35);
 }
 @keyframes jump {
     0% {
