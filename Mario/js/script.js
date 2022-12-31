@@ -1,5 +1,8 @@
 const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
+const score = document.querySelector('.score');
+
+let count = 0;
 
 const jump = () => {
 
@@ -8,6 +11,7 @@ const jump = () => {
     setTimeout(() => {
 
         mario.classList.remove('jump');
+
     }, 500);
 }
 
@@ -17,6 +21,8 @@ const loop = setInterval(() => {
 
     const pipePosition = pipe.offsetLeft;
     const marioPosition = +window.getComputedStyle(mario).bottom.replace('px', '')
+
+
 
     if (pipePosition <= 120 && pipePosition > 0 && marioPosition < 80) {
 
@@ -30,10 +36,15 @@ const loop = setInterval(() => {
         mario.style.width = '75px'
         mario.style.marginLeft = '50px'
 
+        
+
+
         clearInterval(loop)
     }
-}, 10);
+    count++
+    score.innerHTML = `Score: ${count}`
 
+}, 10);
 
 
 document.addEventListener('keydown', jump)
