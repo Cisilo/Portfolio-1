@@ -117,8 +117,8 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: rgb(7, 75, 75);
-    transition: 2s;
+    color: rgb(15, 177, 177);
+    transition: 1s;
     padding: 2px;
 
 }
@@ -134,7 +134,7 @@ nav ul li a:hover {
 
 .main {
     font-family: Impact, 'Arial Narrow Bold', sans-serif;
-    max-width: 80%;
+    max-width: 90%;
     margin: 0 auto;
     display: flex;
     align-items: center;
