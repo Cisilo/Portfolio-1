@@ -1,0 +1,8 @@
+body{
+    background-color: black;
+    text-align: center;
+    margin-top: 10%;
+}
+#stage{
+    border-radius: 40px;
+}
