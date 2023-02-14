@@ -52,7 +52,6 @@ body{
     border: none;
     border-radius: 10px;
     margin-top: 15px;
-   
     margin-left: 40%;
     color: brown;
 }
@@ -61,7 +60,9 @@ body{
     font-size: 0.9rem;
    
 }
-
+#refresh:hover{
+    background-color: rgb(35, 160, 35);
+}
 .score{
     padding: 20px;
     font-size: 20px;

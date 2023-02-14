@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 .foto{
-    background-image: url(./img/background.jpg);
+    background-image: url(./img/Background.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -76,6 +76,9 @@ header {
         display: none;
     }
 }
+.sobreMim{
+    margin: 0;
+}
 
 h2 {
     transition: padding 500ms;
@@ -126,10 +129,7 @@ nav ul li a:hover {
 
 .about {
     width: 100%;
-    padding: 100px 0px;
-    
-    
-
+    padding: 100px 0px;   
 }
 
 .main {
@@ -143,8 +143,7 @@ nav ul li a:hover {
     background: rgba(50, 31, 214, 0.3 );
     border-radius: 20px;
     flex-wrap: wrap;
-
-
+    padding: 0;
 }
 
 .main:hover {
@@ -157,6 +156,7 @@ nav ul li a:hover {
     text-align: center;
     margin: auto;
     font-weight: bold;
+    p
 }
 
 .skills {
@@ -174,6 +174,7 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     min-height: 600px;
+    
 
 }
 
