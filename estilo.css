@@ -10,6 +10,7 @@
     background-size:cover;
     background-position: center;
     background-attachment: fixed;
+    
 }
 
 
@@ -156,7 +157,7 @@ nav ul li a:hover {
     text-align: center;
     margin: auto;
     font-weight: bold;
-    p
+    
 }
 
 .skills {
